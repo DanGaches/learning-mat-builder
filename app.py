@@ -381,7 +381,7 @@ if __name__ == "__main__":
 
         st.divider()
         st.subheader("Text sizing")
-        preferred_font_size = st.slider("Preferred question size", 18, 38, 27)
+        preferred_font_size = st.slider("Preferred question size", 18, 100, 27)
         minimum_font_size = st.slider("Smallest allowed size", 14, preferred_font_size, min(20, preferred_font_size))
         st.caption("The app reduces text only when needed and warns when a section is too crowded.")
 
